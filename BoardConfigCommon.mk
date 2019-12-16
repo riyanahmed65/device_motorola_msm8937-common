@@ -122,6 +122,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $
 
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 
+# LMKD stats logging
+TARGET_LMKD_STATS_LOG := true
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 

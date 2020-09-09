@@ -537,6 +537,11 @@ vendor/lib64/libOmxVpp.so|26018e08ab74c4fbf1d74372e60fa3902437b70d
 vendor/lib64/libOmxWmaDec.so|fab3d4cd12993aa3938d3f9efe67025d415eb069
 vendor/lib64/libvpplibrary.so|6eaf0569b508dd3bc7be8aa5f813cdf8c782f893
 
+# Misc - from V12.1.2.0.RJKCNXM
+-vendor/lib/libgui_vendor.so|131ca346cba389d95a366649134730794fb1966b
+vendor/lib/libmot_gpu_mapper.so|9f4d96542314976a8384f686a2a4c49d321999fe
+-vendor/lib64/libgui_vendor.so|77ceee5381d843b2cb1bd68c983bed473cdb7b16
+
 # Perf - from X00RD - QKQ1.191002.002-17.07.2003.405-20200330
 lib/libqti-perfd-client_system.so|c021b1c1065161a15c2202747ef6738e89cd1b7b
 lib/libqti-util_system.so|3df0aa4365a085ab64ff1ae226bf724d0815aa25

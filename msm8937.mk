@@ -387,6 +387,14 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+# TEMPORARY: These libraries are deprecated, not referenced by any AOSP
+# nor OSS HAL, but are still required by odm blobs (short term).
+# We don't add a dependency on the vndk variants as those end up in
+# /system but require these in /vendor instead:
+PRODUCT_PACKAGES += \
+    libhwbinder.vendor \
+    libhidltransport.vendor
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \

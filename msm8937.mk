@@ -110,8 +110,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.3.vendor
 
 # Doze
-PRODUCT_PACKAGES += \
-    MotoDoze
+#PRODUCT_PACKAGES += \
+#    MotoDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -119,10 +119,18 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# Dynamic partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
 
 # Filesystem
 PRODUCT_PACKAGES += \

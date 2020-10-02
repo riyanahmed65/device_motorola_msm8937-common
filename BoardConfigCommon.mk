@@ -134,9 +134,6 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2516582400
 BOARD_VENDORIMAGE_PARTITION_SIZE := 419430400
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_ROOT_EXTRA_SYMLINKS := \
-    /vendor/dsp:/dsp \
-    /vendor/fsg:/fsg \
-    /vendor/firmware_mnt:/firmware \
     /mnt/vendor/persist:/persist
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true

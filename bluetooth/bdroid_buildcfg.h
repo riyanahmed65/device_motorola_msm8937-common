@@ -39,6 +39,7 @@ static const device_t devices[] = {
     {"cedric", "moto g5"},
     {"hannah", "moto e5 plus"},
     {"james", "moto e5 play"},
+    {"jeter", "moto g6 play"},
     {"montana", "moto g5s"},
 };
 

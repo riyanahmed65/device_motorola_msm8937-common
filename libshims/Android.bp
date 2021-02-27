@@ -5,4 +5,5 @@ cc_library {
         "strdup8to16.cpp",
     ],
     shared_libs: ["libcutils"],
+    vendor_available: true,
 }

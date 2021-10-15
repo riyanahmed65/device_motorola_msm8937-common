@@ -50,10 +50,6 @@ function blob_fixup() {
             "${PATCHELF}" --set-soname keystore.msm8937.so "${2}"
             ;;
 
-        vendor/lib/libmot_gpu_mapper.so | vendor/lib/libmmcamera_vstab_module.so)
-            sed -i "s/libgui/libwui/" "${2}"
-            ;;
-
         vendor/lib64/libmdmcutback.so)
             sed -i "s|libqsap_sdk.so|libqsapshim.so|g" "${2}"
             ;;

@@ -70,8 +70,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libbson.vendor \
-    libstdc++.vendor \
-    libwui
+    libgui.vendor \
+    libstdc++.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \

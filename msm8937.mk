@@ -112,10 +112,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.4-service.clearkey
 
-# Dynamic partitions
-PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
@@ -198,10 +194,14 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.msm8937
 
 # LineageActions
-ifeq ($(filter ahannah rhannah,$(TARGET_DEVICE)),)
-PRODUCT_PACKAGES += \
-    LineageActions
-endif
+#ifeq ($(filter ahannah rhannah,$(TARGET_DEVICE)),)
+#PRODUCT_PACKAGES += \
+#    LineageActions
+#endif
+
+## LiveDisplay
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.0-service-sysfs
 
 # Media
 PRODUCT_COPY_FILES += \
